@@ -10,9 +10,13 @@
         <entry key="..\:/Users/marco/OneDrive/Dokumente/GitHub/FootballManager/app/src/main/res/layout/activity_match.xml" value="0.25" />
         <entry key="..\:/Users/marco/OneDrive/Dokumente/GitHub/FootballManager/app/src/main/res/layout/activity_running_match.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/marco/OneDrive/Dokumente/GitHub/FootballManager/app/src/main/res/layout/activity_verein.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/marco/OneDrive/Dokumente/GitHub/SoccerManager/app/src/main/res/layout/activity_loading.xml" value="0.264" />
+        <entry key="..\:/Users/marco/OneDrive/Dokumente/GitHub/SoccerManager/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/marco/OneDrive/Dokumente/GitHub/SoccerManager/app/src/main/res/layout/activity_team_management.xml" value="0.25416666666666665" />
       </map>
     </option>
   </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>

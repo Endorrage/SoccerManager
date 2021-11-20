@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
         <activity
+            android:name=".Team_Management"
+            android:exported="false" />
+        <activity
             android:name=".client.activities.CreateClubActivity"
             android:exported="false" />
         <activity
@@ -34,7 +37,7 @@
             android:exported="false" />
         <activity
             android:name=".client.activities.MainActivity"
-            android:exported="false"></activity>
+            android:exported="false" />
 
         <meta-data
             android:name="preloaded_fonts"
