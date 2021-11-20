@@ -22,18 +22,20 @@
         app:srcCompat="@drawable/ic_baseline_chevron_left_24" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/main_team_management_formation"
         android:layout_width="174dp"
         android:layout_height="91dp"
-        android:text="Button"
+        android:text="Formation"
+        android:textSize="18sp"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="624dp" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/main_team_management_substitute_players"
         android:layout_width="174dp"
         android:layout_height="91dp"
-        android:text="Button"
+        android:text="Substitute players"
+        android:textSize="18sp"
         tools:layout_editor_absoluteX="221dp"
         tools:layout_editor_absoluteY="624dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
