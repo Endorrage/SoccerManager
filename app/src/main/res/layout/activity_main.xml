@@ -4,100 +4,47 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#373737"
-    tools:context=".client.activities.MainActivity">
+    tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/Match_Button"
-        android:layout_width="374dp"
-        android:layout_height="138dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginBottom="8dp"
-        android:backgroundTint="#5A3085"
-        android:fontFamily="sans-serif-black"
-        android:onClick="startMatch"
+        android:id="@+id/main_Match"
+        android:layout_width="279dp"
+        android:layout_height="117dp"
+        android:layout_marginStart="67dp"
+        android:layout_marginEnd="66dp"
         android:text="Match"
-        android:textSize="60sp"
+        android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.973" />
 
+    <Button
+        android:id="@+id/main_BattlePass"
+        android:layout_width="366dp"
+        android:layout_height="132dp"
+        android:text="BattlePass"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.2" />
+
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="378dp"
-        android:layout_height="318dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginEnd="8dp"
+        android:layout_width="75dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="320dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.588"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.554"
-        app:srcCompat="@drawable/fortmation_example" />
-
-    <Button
-        android:id="@+id/shop_button"
-        android:layout_width="125dp"
-        android:layout_height="100dp"
-        android:layout_marginStart="140dp"
-        android:layout_marginTop="110dp"
-        android:layout_marginEnd="6dp"
-        android:backgroundTint="#5A3084"
-        android:text="Shop"
-        android:textSize="24sp"
-        app:layout_constraintEnd_toStartOf="@+id/Tabellen_button"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/Tabellen_button"
-        android:layout_width="125dp"
-        android:layout_height="100dp"
-        android:layout_marginTop="110dp"
-        android:layout_marginEnd="8dp"
-        android:backgroundTint="#5A3085"
-        android:text="Tabelle"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.974"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
-
-    <Button
-        android:id="@+id/Verein_button"
-        android:layout_width="125dp"
-        android:layout_height="100dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="110dp"
-        android:backgroundTint="#5A3084"
-        android:onClick="verein"
-        android:text="Verein"
-        android:textColorHint="#48DA6F"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/shop_button"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
-
-    <ImageView
-        android:id="@+id/imageView6"
-        android:layout_width="46dp"
-        android:layout_height="46dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.073"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.043"
+        app:layout_constraintVertical_bias="0.023"
         app:srcCompat="@drawable/coin_example" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>
