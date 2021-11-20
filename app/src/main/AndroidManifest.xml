@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
         <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
             android:name=".Team_Management"
             android:exported="false" />
         <activity
