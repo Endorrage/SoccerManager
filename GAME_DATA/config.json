@@ -1,10 +1,10 @@
 {
-    "STRIKER": 2,
-    "CENTER_MID": 4,
-    "LEFT_MID": 1,
-    "RIGHT_MID": 1,
-    "DEFENDER": 3,
-    "RIGHT_DEFENDER": 1,
-    "LEFT_DEFENDER": 1,
-    "GOALKEEPER": 2
+    "striker":2,
+    "center_mid":4,
+    "left_mid":1,
+    "right_mid":1,
+    "defender":3,
+    "right_defender":1,
+    "left_defender":1,
+    "goalkeeper":2
 }
